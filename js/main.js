@@ -121,8 +121,8 @@
 
 // -----------------------------
 
-// const s = "technology, computers, IT, code"
-// console.log(s.split(", "))
-// returns ['technology', 'computers', 'IT', 'code']
+const s = "technology, computers, IT, code"
+console.log(s.split(", "))
+returns[("technology", "computers", "IT", "code")]
 
-// TIMESTAMP 24:00
+// ending TIMESTAMP 24:00
