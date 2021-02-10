@@ -121,8 +121,67 @@
 
 // -----------------------------
 
-const s = "technology, computers, IT, code"
-console.log(s.split(", "))
-returns[("technology", "computers", "IT", "code")]
+// const s = "technology, computers, IT, code"
+// console.log(s.split(", "))
+// returns[("technology", "computers", "IT", "code")]
 
-// ending TIMESTAMP 24:00
+//  TIMESTAMP 24:30
+
+// ================================
+
+// ARRAYS - variables that hold multiple values
+
+// USING CONSTRUCTOR:
+
+// const numbers = new Array(1, 2, 3, 4, 5)
+
+// SET USING BRACKETS :
+
+const fruits = ["apples", "oranges", "pears"]
+
+// console.log(fruits)
+
+// console.log(fruits[0])
+
+// ADD ITEM TO end of ARRAY :
+
+// fruits[3] = "grapes"
+
+// console.log(fruits)
+
+// ----------
+
+// better way to add item to end of array - push method :
+
+// fruits.push("mangoes")
+
+// console.log(fruits)
+
+// ------------
+
+// add item to beginning of array - unshift method
+
+// fruits.unshift("strawberries")
+
+// console.log(fruits)
+
+// remove item from end of array - pop method
+
+// fruits.pop()
+
+// console.log(fruits)
+
+// remove item from beginning of array - shift method
+
+// fruits.shift()
+
+// console.log(fruits)
+
+// TEST FOR ARRAY:
+// console.log(Array.isArray(fruits))
+
+// returns 'true'
+
+// console.log(Array.isArray("hello world"))
+
+// returns 'false'
