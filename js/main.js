@@ -137,7 +137,7 @@
 
 // SET USING BRACKETS :
 
-const fruits = ["apples", "oranges", "pears"]
+// const fruits = ["apples", "oranges", "pears"]
 
 // console.log(fruits)
 
@@ -185,3 +185,102 @@ const fruits = ["apples", "oranges", "pears"]
 // console.log(Array.isArray("hello world"))
 
 // returns 'false'
+
+// -----------
+
+// get index of
+
+// console.log(fruits.indexOf("oranges"))
+
+// TIMESTAMP 30:00
+
+// OBJECT LITERALS
+
+// const person = {
+//   firstName: "John",
+//   lastName: "Doe",
+//   age: 30,
+//   hobbies: ["music", "movies", "sports"],
+//   address: {
+//     street: "50 Main St",
+//     city: "Boston",
+//     state: "MA"
+//   }
+// }
+
+// console.log(person.firstName, person.lastName)
+
+// console.log(person.hobbies[1])
+
+// console.log(person.address.city)
+
+// -------
+
+// object destructuring
+
+// const {
+//   firstName,
+//   lastName,
+//   address: { city }
+// } = person
+
+// console.log(firstName)
+// console.log(city)
+
+// adding properties
+
+// person.email = "jkovert@gmail.com"
+
+// console.log(person)
+// will show the email address  now included
+
+// TIMESTAMP 34:00
+
+// =================================
+
+// ARRAYS OF OBJECTS
+// const todos = [
+//   {
+//     id: 1,
+//     text: "take out trash",
+//     isCompleted: true
+//   },
+//   {
+//     id: 2,
+//     text: "meeting with boss",
+//     isCompleted: true
+//   },
+//   {
+//     id: 3,
+//     text: "dentist appointment",
+//     isCompleted: false
+//   }
+// ]
+
+// console.log(todos)
+// console.log(todos[1].text)
+
+// JSON format see https://freeformatter.com/json-formatter.html
+
+// const todoJSON = JSON.stringify(todos)
+// console.log(todoJSON)
+
+// LOOPS
+
+// for
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(`FOR LOOP NUMBER IS: ${i}`)
+// }
+
+// while
+
+// let i = 1
+// while (i <= 10) {
+//   console.log(i)
+//   i++
+// }
+
+// i++   ... don't forget to increment i - endless loop alert!
+
+// TIMESTAMP 40:00
